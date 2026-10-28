@@ -34,3 +34,9 @@ public static int getTotalStudents() {
 public String getCourseName() {
     return courseName;
 }
+
+public class UniversityEnrolment {
+    public static void main(String[] args) {
+        Course course1 = new Course("Object-Oriented Programming", 45);
+        Course course2 = new Course("Operating Systems", 38);
+        Course course3 = new Course("Systems Analysis and Design", 52);
