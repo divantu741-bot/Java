@@ -8,3 +8,7 @@ public Course(String name, int students) {
     this.studentsRegistered = students;
     totalStudents += students;
 }
+public void registerStudents(int count) {
+    studentsRegistered += count;
+    totalStudents += count;
+}
