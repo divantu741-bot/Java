@@ -12,3 +12,8 @@ public void registerStudents(int count) {
     studentsRegistered += count;
     totalStudents += count;
 }
+public double calculateAverageAttendance(int[] attendancePerSession) {
+    int sum = 0;
+    for (int attended : attendancePerSession) {
+        sum += attended;
+    }
