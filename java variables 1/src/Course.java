@@ -24,3 +24,6 @@ public double calculatePassPercentage(int passed) {
     double percentage = ((double) passed / studentsRegistered) * 100;
     return percentage;
 }
+public void displayCourseStatistics() {
+    System.out.println("Course: " + courseName + " | Students registered: " + studentsRegistered);
+}
