@@ -17,3 +17,6 @@ public double calculateAverageAttendance(int[] attendancePerSession) {
     for (int attended : attendancePerSession) {
         sum += attended;
     }
+    double average = (double) sum / attendancePerSession.length;
+    return average;
+}
