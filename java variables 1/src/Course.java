@@ -27,3 +27,10 @@ public double calculatePassPercentage(int passed) {
 public void displayCourseStatistics() {
     System.out.println("Course: " + courseName + " | Students registered: " + studentsRegistered);
 }
+public static int getTotalStudents() {
+    return totalStudents;
+}
+
+public String getCourseName() {
+    return courseName;
+}
