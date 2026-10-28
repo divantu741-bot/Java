@@ -20,3 +20,7 @@ public double calculateAverageAttendance(int[] attendancePerSession) {
     double average = (double) sum / attendancePerSession.length;
     return average;
 }
+public double calculatePassPercentage(int passed) {
+    double percentage = ((double) passed / studentsRegistered) * 100;
+    return percentage;
+}
